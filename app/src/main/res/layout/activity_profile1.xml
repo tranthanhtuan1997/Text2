@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:background="@drawable/dinhdang" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/bt1"
+                android:background="@drawable/dinhdang4" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt3"
+            android:layout_below="@id/l1"
+            android:background="@drawable/dinhdang2_circle"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt4"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/dinhdang3"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt6"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/bt3"
+            android:background="@drawable/dinhdang3"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt5"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@id/bt4"
+            android:background="@drawable/dinhdang2_circle"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/dinhdang"
+            android:id="@+id/button1"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/dinhdang2_circle"
+            android:id="@+id/button2"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/button1"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/dinhdang3"
+            android:id="@+id/button3"
+            android:layout_below="@id/button2"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/button1"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/dinhdang4"
+            android:id="@+id/button4"
+            android:layout_below="@id/button1"
+            android:layout_toRightOf="@id/button2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/dinhdang3"
+            android:id="@+id/button5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</LinearLayout>
